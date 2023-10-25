@@ -1,0 +1,218 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/pexels-neo-7082185.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.navbar-brand h2 {
+    color: white;
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+
+.nav-item a {
+    color: white !important;
+    font-size: 25px;
+    font-weight: 500;
+    transition: 1s;
+}
+
+.nav-item a:hover {
+    color: #f9004d !important;
+    letter-spacing: 2px;
+}
+
+.nav-item .active {
+    color: #f9004d !important;
+}
+
+.navbar-toggler {
+    background: #303030 !important;
+    transition: 0.5s;
+}
+
+.navbar-toggler.collapsed {
+    background: #f9004d !important;
+    transition: 0.5s;
+}
+
+span .navbar-toggler-icon {
+    color: white !important;
+}
+
+span {
+    color: #f9004d;
+}
+
+.text-header {
+    margin-top: 15%;
+    margin-left: 5%;
+}
+
+.text-header h1 {
+    color: white;
+    font-size: 55px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.text-header h2 {
+    color: white;
+    margin-left: 6%;
+    font-size: 25px;
+    margin-top: -15px;
+}
+
+
+.about {
+    width: 100%;
+    padding: 40px 0px;
+    background-color: #080609;
+}
+.main {
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.img {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/photo_2023-04-10_00-51-37.jpg);
+    height: 100vh;
+    width: 35%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+}
+.about-me {
+    width: 40%;
+    overflow: hidden;
+}
+.about h2 {
+    color: white;
+    text-align: center;
+    font-size: 55px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about-me h5 {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.about-me p {
+    color: #fcfc;
+    letter-spacing: 1px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    line-height: 28px;
+}
+
+.service {
+    background: #101010;
+    padding: 20px 0px;
+    margin-top: -5px;
+}
+
+.title h2 {
+    color: white;
+    font-size: 55px;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 10px 0px;
+
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.card1 {
+    height: 450px;
+    width: 400px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+
+    text-align: center;
+}
+.card1 h3{
+    color: white;
+    font-size: 27px;
+}
+.card1 h5{
+    color:#ffffff;
+   
+}
+
+.card1 i {
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #f9004d;
+}
+
+.card1 p {
+    color:#fcfc;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+
+}
+.card1 p span {
+    color:#f9004d;
+}
+.card1 a{
+ text-decoration: none;
+ color: #f9004d;
+ text-align: center;
+transition: 0.9s;
+}
+.card1 a:hover{
+color: white;
+border: 2px solid #f9004d ;
+padding: 10px 25px;
+border-radius: 15px;
+}
+
+footer {
+    background: #191919;
+    height: 30%;
+    color: white;
+    text-align: center;
+    padding: 15px;
+
+}
+
+footer p {
+    font-size: 25px;
+    margin: 15px;
+}
+
+footer a i {
+    color: #f9004d;
+    font-size: 30px;
+    margin-left: 15px;
+    transition: 0.8s;
+}
+
+footer a i:hover {
+    color: white;
+
+}
